@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(express.json( { extended: true} ));
 
 
-app.use(express.static(path.join(__dirname,'./frontend/myapp/build')))
+app.use(express.static(path.join(__dirname,'./client/build')))
 // Middleware to handle CORS
 app.use(cors());
  
@@ -27,7 +27,7 @@ app.use("/", authrouter);
 app.use("/",catrouter)
 app.use("/",prodrouter)
 app.use("*",function(req,res){
-  res.sendFile(path.join(__dirname,"./frontend/myapp/build/index.html"))
+  res.sendFile(path.join(__dirname,"./client/build/index.html"))
   })
 
 const PORT = process.env.PORT||3000;
