@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 {
     "files": {
@@ -14,3 +15,20 @@
       "static/js/main.f8dacd2b.js"
     ]
   }
+=======
+{
+  "files": {
+    "main.css": "/static/css/main.86cc6752.css",
+    "main.js": "/static/js/main.f8dacd2b.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "index.html": "/index.html",
+    "main.86cc6752.css.map": "/static/css/main.86cc6752.css.map",
+    "main.f8dacd2b.js.map": "/static/js/main.f8dacd2b.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86cc6752.css",
+    "static/js/main.f8dacd2b.js"
+  ]
+}
+>>>>>>> 4aa9e20377903d6886507bdb5bb34a092c885b24
